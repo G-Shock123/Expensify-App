@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Making sure rendered properly when everthing is there  1`] = `
+<div>
+  <div
+    className="page-header"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+         You are looking at 
+        <span>
+          3
+        </span>
+         
+        things
+        . The total is 
+        <span>
+          $451.95
+        </span>
+      </h1>
+      <div
+        className="page-header__actions"
+      >
+        <Link
+          className="button"
+          to="/create"
+        >
+          Add Expense
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Making sure rendered properly when everthing is there  2`] = `
+<div>
+  <div
+    className="page-header"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+         You are looking at 
+        <span>
+          3
+        </span>
+         
+        things
+        . The total is 
+        <span>
+          $451.95
+        </span>
+      </h1>
+      <div
+        className="page-header__actions"
+      >
+        <Link
+          className="button"
+          to="/create"
+        >
+          Add Expense
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;

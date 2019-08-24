@@ -1,0 +1,36 @@
+.button{
+    background:$blue;
+    border:none;
+    display: inline-block;
+    color:fade-out(white,.15);
+    font-size: $font-size-large;
+    font-weight:300;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    padding: $m-size;
+    text-decoration: none;
+    transition:background .3s ease;
+     &:hover{
+        background: lighten($blue,15%)
+    }
+}
+
+.button--link{
+    color: fade-out(white,.15);
+    background: none;
+}
+
+.button--secondary{
+    background: #888;
+    &:hover{
+        background: lighten(#888,15%)
+    }
+}
+
+.button--alert{
+    background:$pastel-red;
+    margin-right: $s-size;
+     &:hover{
+        background: lighten($pastel-red,15%)
+    }
+}

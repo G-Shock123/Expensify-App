@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should be the same is prior snapshot of loginpage 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Expensify
+    </h1>
+    <p>
+      Get expenses under control
+    </p>
+    <button
+      className="button"
+    >
+      Login with Google
+    </button>
+    <div
+      className="box-layout__spacing"
+    />
+    <button
+      className="button"
+    >
+      Login with Facebook
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render remove modal 1`] = `
+<div>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    className="modal"
+    closeTimeoutMS={200}
+    contentLabel="Remove Modal"
+    isOpen={false}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+  >
+    <div>
+      <h3>
+         Are you sure you want to remove the expense?
+      </h3>
+      <button
+        className="button button--alert"
+      >
+        Yes 
+      </button>
+      <button
+        className="button"
+      >
+        No
+      </button>
+    </div>
+  </Modal>
+</div>
+`;
